@@ -1,10 +1,9 @@
 README
-# udacity-project-1
 
 In this repository it is saved data and code used to prepare project for Udacity Data Science Course. 
 
-### 1. Installations
-Packages and libraries used:
+# 1. Installations
+#### Packages and libraries used:
 - Data visualization: pandas, matplotlib.pyplot, seaborn
 - Data wrangling: numpy
 - Plot map: folium 
@@ -20,13 +19,13 @@ Additional parameter to show all columns:
 pd.set_option('display.max_columns', 500)
 
 # 2. Project Motivation
-Analysis made to identify and understand Airbnb trends in Venice and answer questions:
+#### Analysis made to identify and understand Airbnb trends in Venice and answer questions:
 - What is the busiest period to visit Venice?
 - How to find the best lodging with good reviews?
 - What determines the price of your stay?
 - What could you expect during your stay?
 
-Structure of the project:
+#### Structure of the project:
 - Data load
 - Data preprocessing: outliers identification (1.5 IQR), missing values filling;
 - Data understanding: created variables
@@ -36,7 +35,7 @@ Structure of the project:
 
 # 3. Files Descriptions
 
-There are 5 files used for analysis:
+#### There are 5 files used for analysis:
 - listings.csv - general information about hosts;
 - detailed_listings.csv - detailed information about listings; 
 - calendar_all.csv - 365 data of available properties; 
